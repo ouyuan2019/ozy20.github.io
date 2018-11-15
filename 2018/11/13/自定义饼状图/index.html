@@ -6,19 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>相册 | ozy</title>
+  <title>自定义饼状图 | ozy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Photos 	待续   	图片正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($scrip">
-<meta property="og:type" content="website">
-<meta property="og:title" content="相册">
-<meta property="og:url" content="http://yoursite.com/photos/index.html">
+  <meta name="description" content="1.效果图">
+<meta name="keywords" content="自定义控件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自定义饼状图">
+<meta property="og:url" content="http://yoursite.com/2018/11/13/自定义饼状图/index.html">
 <meta property="og:site_name" content="ozy">
-<meta property="og:description" content="Photos 	待续   	图片正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($scrip">
+<meta property="og:description" content="1.效果图">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-30T03:12:58.148Z">
+<meta property="og:image" content="https://blod-1253770289.cos.ap-chengdu.myqcloud.com/other/QQ%E5%9B%BE%E7%89%8720181113093556.png">
+<meta property="og:updated_time" content="2018-11-15T03:08:40.265Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="相册">
-<meta name="twitter:description" content="Photos 	待续   	图片正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($scrip">
+<meta name="twitter:title" content="自定义饼状图">
+<meta name="twitter:description" content="1.效果图">
+<meta name="twitter:image" content="https://blod-1253770289.cos.ap-chengdu.myqcloud.com/other/QQ%E5%9B%BE%E7%89%8720181113093556.png">
   
     <link rel="alternative" href="/atom.xml" title="ozy" type="application/atom+xml">
   
@@ -148,42 +151,39 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-photos" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-自定义饼状图" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      相册
+      自定义饼状图
     </h1>
   
 
+        
+        <a href="/2018/11/13/自定义饼状图/" class="archive-article-date">
+  	<time datetime="2018-11-13T01:35:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-13</time>
+</a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" href="./ins.css">
-<div class="photos-btn-wrap">
-	<a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="noopener">Photos</a>
-	<a class="photos-btn" href="#">待续</a>
-</div>
-<div class="instagram itemscope">
-	<a href="#" target="_blank" class="open-ins">图片正在加载中…</a>
-</div>
-<script>
-  (function() {
-    var loadScript = function(path) {
-      var $script = document.createElement('script')
-      document.getElementsByTagName('body')[0].appendChild($script)
-      $script.setAttribute('src', path)
-    }
-    setTimeout(function() {
-      loadScript('./ins.js')
-    }, 0)
-  })()
-</script>
+        <blockquote>
+<p>1.效果图</p>
+</blockquote>
+<p><img src="https://blod-1253770289.cos.ap-chengdu.myqcloud.com/other/QQ%E5%9B%BE%E7%89%8720181113093556.png" width="20%" height="20%" align="center/"></p>
+<a id="more"></a>
+<blockquote>
+<p>自定义属性</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">declare-styleable</span> <span class="attr">name</span>=<span class="string">"PieChartView"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">attr</span> <span class="attr">name</span>=<span class="string">"p_gap"</span> <span class="attr">format</span>=<span class="string">"dimension"</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">attr</span> <span class="attr">name</span>=<span class="string">"p_textsize"</span> <span class="attr">format</span>=<span class="string">"dimension"</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">attr</span> <span class="attr">name</span>=<span class="string">"p_radius"</span> <span class="attr">format</span>=<span class="string">"dimension"</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">attr</span> <span class="attr">name</span>=<span class="string">"p_indicator_width"</span> <span class="attr">format</span>=<span class="string">"dimension"</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">attr</span> <span class="attr">name</span>=<span class="string">"p_indicator_gap"</span> <span class="attr">format</span>=<span class="string">"dimension"</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">attr</span> <span class="attr">name</span>=<span class="string">"p_text_margin"</span> <span class="attr">format</span>=<span class="string">"dimension"</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">declare-styleable</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>源码</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> android.content.Context;</span><br><span class="line"><span class="keyword">import</span> android.content.res.TypedArray;</span><br><span class="line"><span class="keyword">import</span> android.graphics.Canvas;</span><br><span class="line"><span class="keyword">import</span> android.graphics.Color;</span><br><span class="line"><span class="keyword">import</span> android.graphics.Paint;</span><br><span class="line"><span class="keyword">import</span> android.graphics.RectF;</span><br><span class="line"><span class="keyword">import</span> android.support.annotation.Nullable;</span><br><span class="line"><span class="keyword">import</span> android.util.AttributeSet;</span><br><span class="line"><span class="keyword">import</span> android.util.Log;</span><br><span class="line"><span class="keyword">import</span> android.view.View;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.text.DecimalFormat;</span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">PieChartView</span> <span class="keyword">extends</span> <span class="title">View</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Paint mPaint;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> List&lt;PicBean&gt; mData;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> RectF mRectF;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">double</span> mTotalValue;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Context mContext;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">float</span> mRadius;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Paint mTextPaint;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">float</span> mGap = <span class="number">75</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">float</span> mIndicatorWidth = <span class="number">15</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">float</span> mTextSize;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">float</span> mIndicatorGap = <span class="number">4</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">PieChartView</span><span class="params">(Context context)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>(context, <span class="keyword">null</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">PieChartView</span><span class="params">(Context context, @Nullable AttributeSet attrs)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>(context, attrs, <span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">PieChartView</span><span class="params">(Context context, @Nullable AttributeSet attrs, <span class="keyword">int</span> defStyleAttr)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(context, attrs, defStyleAttr);</span><br><span class="line">        mContext = context;</span><br><span class="line"></span><br><span class="line">        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.PieChartView);</span><br><span class="line">        mTextSize = a.getDimension(R.styleable.PieChartView_p_textsize, sp2px(mContext, <span class="number">10</span>));</span><br><span class="line">        mIndicatorGap = a.getDimension(R.styleable.PieChartView_p_indicator_gap, dip2px(mContext, <span class="number">2</span>));</span><br><span class="line">        mIndicatorWidth = a.getDimension(R.styleable.PieChartView_p_indicator_width, dip2px(mContext, <span class="number">5</span>));</span><br><span class="line">        mRadius = a.getDimension(R.styleable.PieChartView_p_radius, dip2px(mContext, <span class="number">75</span>));</span><br><span class="line">        mGap = a.getDimension(R.styleable.PieChartView_p_gap, dip2px(mContext, <span class="number">25</span>));</span><br><span class="line">        a.recycle();</span><br><span class="line">        initPaint();</span><br><span class="line"></span><br><span class="line">        initData();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onMeasure</span><span class="params">(<span class="keyword">int</span> widthMeasureSpec, <span class="keyword">int</span> heightMeasureSpec)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onMeasure(widthMeasureSpec, heightMeasureSpec);</span><br><span class="line">        <span class="keyword">int</span> width = getMeasuredWidth();</span><br><span class="line">        <span class="keyword">int</span> height = getMeasuredHeight();</span><br><span class="line">        Log.w(<span class="string">"=========&gt;&gt;&gt;"</span>, <span class="string">"l:"</span> + (width / <span class="number">2</span> - mRadius) + <span class="string">" t: 0  r:"</span> + (width / <span class="number">2</span> + mRadius) + <span class="string">"   b:"</span> + (width / <span class="number">2</span> + mRadius) + <span class="string">"  w:"</span> + width);</span><br><span class="line">        mRectF = <span class="keyword">new</span> RectF(width / <span class="number">2</span> - mRadius, <span class="number">0</span> + getPaddingTop(), width / <span class="number">2</span> + mRadius, mRadius * <span class="number">2</span> + getPaddingTop());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">initData</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        mData = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        mData.add(<span class="keyword">new</span> PicBean(<span class="number">76</span>, <span class="string">"现金"</span>, Color.parseColor(<span class="string">"#EEB228"</span>)));</span><br><span class="line">        mData.add(<span class="keyword">new</span> PicBean(<span class="number">124</span>, <span class="string">"刷卡"</span>, Color.parseColor(<span class="string">"#516B78"</span>)));</span><br><span class="line">        mData.add(<span class="keyword">new</span> PicBean(<span class="number">100</span>, <span class="string">"微信"</span>, Color.parseColor(<span class="string">"#09BB07"</span>)));</span><br><span class="line">        mData.add(<span class="keyword">new</span> PicBean(<span class="number">520</span>, <span class="string">"支付宝"</span>, Color.parseColor(<span class="string">"#2284FF"</span>)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (PicBean item : mData) &#123;</span><br><span class="line">            mTotalValue += item.getValue();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">initPaint</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        mPaint = <span class="keyword">new</span> Paint(Paint.ANTI_ALIAS_FLAG);</span><br><span class="line">        mPaint.setStyle(Paint.Style.FILL);</span><br><span class="line"></span><br><span class="line">        mTextPaint = <span class="keyword">new</span> Paint(Paint.ANTI_ALIAS_FLAG);</span><br><span class="line">        mTextPaint.setTextSize(mTextSize);</span><br><span class="line">        mTextPaint.setTextAlign(Paint.Align.LEFT);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onDraw</span><span class="params">(Canvas canvas)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">float</span> startAngle = -<span class="number">90</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (PicBean item : mData) &#123;</span><br><span class="line">            mPaint.setColor(item.getColor());</span><br><span class="line">            <span class="keyword">float</span> sweepAngle = (<span class="keyword">float</span>) (item.getValue() / mTotalValue * <span class="number">360</span>);</span><br><span class="line">            canvas.drawArc(mRectF, startAngle, -sweepAngle, <span class="keyword">true</span>, mPaint);</span><br><span class="line">            startAngle -= sweepAngle;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        DecimalFormat decimalFormat = <span class="keyword">new</span> DecimalFormat(<span class="string">"###################.##"</span>);</span><br><span class="line">        <span class="keyword">float</span> totalWidth = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (PicBean item : mData) &#123;</span><br><span class="line">            String text = item.getText() + <span class="string">" "</span> + decimalFormat.format(item.getValue() / mTotalValue * <span class="number">100</span>) + <span class="string">"%"</span>;</span><br><span class="line">            totalWidth += mTextPaint.measureText(text) + <span class="number">30</span> + mIndicatorWidth + mIndicatorGap;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="keyword">float</span> x = getWidth() / <span class="number">2</span> - totalWidth / <span class="number">2</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (PicBean item : mData) &#123;</span><br><span class="line">            String text = item.getText() + <span class="string">" "</span> + decimalFormat.format(item.getValue() / mTotalValue * <span class="number">100</span>) + <span class="string">"%"</span>;</span><br><span class="line"></span><br><span class="line">            Paint.FontMetricsInt fontMetrics = mTextPaint.getFontMetricsInt();</span><br><span class="line">            <span class="keyword">float</span> height = fontMetrics.bottom - fontMetrics.top;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">float</span> bottom = mRectF.bottom + mGap + height / <span class="number">2</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">int</span> baseline = (<span class="keyword">int</span>) (bottom + (fontMetrics.bottom - fontMetrics.top) / <span class="number">2</span> - fontMetrics.bottom);</span><br><span class="line">            mPaint.setColor(item.getColor());</span><br><span class="line">            canvas.drawRect(x, bottom - mIndicatorWidth / <span class="number">2</span>, x + mIndicatorWidth, bottom + mIndicatorWidth / <span class="number">2</span>, mPaint);</span><br><span class="line"></span><br><span class="line">            canvas.drawText(text, x + mIndicatorWidth + mIndicatorGap, baseline, mTextPaint);</span><br><span class="line"></span><br><span class="line">            x += mTextPaint.measureText(text) + <span class="number">30</span> + mIndicatorWidth + mIndicatorGap;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">sp2px</span><span class="params">(Context context, <span class="keyword">float</span> spValue)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> <span class="keyword">float</span> fontScale = context.getResources().getDisplayMetrics().scaledDensity;</span><br><span class="line">        <span class="keyword">return</span> (<span class="keyword">int</span>) (spValue * fontScale + <span class="number">0.5f</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">dip2px</span><span class="params">(Context context, <span class="keyword">float</span> dpValue)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">final</span> <span class="keyword">float</span> scale = context.getResources().getDisplayMetrics().density;</span><br><span class="line">        <span class="keyword">return</span> (<span class="keyword">int</span>) (dpValue * scale + <span class="number">0.5f</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
 
@@ -192,6 +192,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">自定义控件</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -203,6 +214,25 @@
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2018/11/14/自动靠边吸附，可手动拖拽的DragView/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          自动靠边吸附，可点击，手动拖拽的DragView
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/11/01/你好，十一月/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">你好，十一月</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -243,7 +273,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
